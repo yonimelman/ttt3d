@@ -3,7 +3,23 @@ body {
 
 }
 
-div {
+div.container {
+    vertical-align: middle;
+    text-align: center;
+
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    margin-left: 10px; 
+
+    display: inline-block;
+
+
+}
+
+
+
+div.tile {
     width:100px;
     height: 100px;
     display: inline-block;
@@ -12,27 +28,34 @@ div {
     font-size: 60px;
     font-weight: bold;
 
+
     border: 2px solid black;
 
     text-align: center;
     vertical-align: middle;
     line-height: 100px;
 
+    
     margin-top: 3px;
     margin-bottom: 3px;
     margin-right: 3px;
-    margin-left: 3px;  
+    margin-left: 3px; 
+    
+
+
+ 
 }
 
-.active {
+div.tile.active {
     background-color: #850AFF;
 }
 
-.x {
+
+div.tile.x {
     background-color: #00CC33;
 }
 
-.o {
+div.tile.o {
     background-color: #CC3300;
 }
 
